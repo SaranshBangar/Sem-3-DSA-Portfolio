@@ -59,6 +59,7 @@ h1
     width: 320px;
     height: auto;
     border-radius: 50%;
+    border: 2px solid black;
 }
 
 #aboutMe > div > h2, #projects > div > h2, #achievements > div > div > h2
