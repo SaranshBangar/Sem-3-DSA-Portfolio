@@ -37,6 +37,11 @@ nav > div > a
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1
+{
+    font-size: 70px;
+}
+
 .aboutMe-1
 {
     margin-top: 25px;
@@ -56,9 +61,10 @@ nav > div > a
     border-radius: 50%;
 }
 
-#aboutMe > div > h1, #projects > div > h1
+#aboutMe > div > h2, #projects > div > h2, #achievements > div > div > h2
 {
-    font-size: 50px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .bar
@@ -89,7 +95,7 @@ nav > div > a
     flex-direction: column;
 }
 
-#skills > div > ul, #projects > div > ul
+#skills > div > ul, #projects > div > ul, #achievements > div > div > ul
 {
     list-style: none;
     text-align: center;
@@ -114,9 +120,42 @@ nav > div > a
     width: 245px;
 }
 
-#achievements > div > a > img
+#achievements
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#achievements > div
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.achievements-1 > a > img
 {
     width: 200px;
     height: auto;
     border-radius: 20px;
+}
+
+.all-achievements
+{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 20px;
+    width: 245px;
+    height: 220px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
